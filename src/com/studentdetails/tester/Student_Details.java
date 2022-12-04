@@ -8,6 +8,9 @@ public class Student_Details {
 	public void stdId() {
 		System.out.println(01);
 	}
+	public void stdNumber() {
+		System.out.println("9710226831");
+	}
 
 	public void stdMarks() {
 		System.out.println("Tamil:35 and English:45 and Maths:55");
@@ -17,6 +20,7 @@ public class Student_Details {
 		Student_Details std = new Student_Details();
 		std.stdName();
 		std.stdId();
+		std.stdNumber();
 		std.stdMarks();
 
 	}
