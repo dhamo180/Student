@@ -8,8 +8,13 @@ public class Student_Details {
 	public void stdId() {
 		System.out.println(01);
 	}
+
 	public void stdNumber() {
 		System.out.println("9710226831");
+	}
+
+	public void stdSection() {
+		System.out.println("A section");
 	}
 
 	public void stdMarks() {
@@ -21,6 +26,7 @@ public class Student_Details {
 		std.stdName();
 		std.stdId();
 		std.stdNumber();
+		std.stdSection();
 		std.stdMarks();
 
 	}
